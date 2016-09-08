@@ -1,4 +1,4 @@
-### 0. When your Mac is totally new:
+### 0. When your Mac is totally new
 
 0.1 TouchPad
 > Make Your TouchPad Powerful to Use.
