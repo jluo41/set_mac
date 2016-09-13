@@ -8,15 +8,17 @@ https://www.continuum.io/downloads
 
 #### 2.1 Install Anacondas with .sh files
 
-1. download the `command-line installer` files.
+
 
 ![Dowonloads](https://cloud.githubusercontent.com/assets/18824134/18459893/e59a92be-799f-11e6-9f67-77daa4c4ad32.png)
 
-2. make a new directory on your root directory, named `Environments`.
+1. Download the `command-line installer` files.
 
-3. then change directory to where the downloaded files are. Generally, it is `Downloads` folder.
+2. Make a new directory on your root directory, named `Environments`.
 
-4. enter this command in terminal
+3. Change directory to where the downloaded files are. Generally, it is `Downloads` folder.
+
+4. Enter this command in terminal
 
    `$ sudo bash Anaconda3-4.1.1-MacOSX-x86_64.sh # for python3.5`
 
@@ -28,9 +30,9 @@ https://www.continuum.io/downloads
 
    >I use `sudo` here in order to be able change to the installation paths. And the user's password is also needed to confirm.
 
-5. agree whatever until the terminal ask you to say `yes` and choose the location to install.
+5. Agree whatever until the terminal ask you to say `yes` and choose the location to install.
 
-6. change the default install location path to the new path.
+6. Change the default install location path to the new path.
 
   > For me, the new paths are `Users/floyd/Environments/anaconda3` and
 `Users/floyd/Environments/anaconda2`
@@ -109,5 +111,5 @@ Now you have install a lot of packages.
     `$ ipython`
 
     `$ ipython notebook`
-    
+
     (to see what will happen!)
