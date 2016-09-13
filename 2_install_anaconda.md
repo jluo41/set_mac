@@ -8,11 +8,12 @@ https://www.continuum.io/downloads
 
 #### 2.1 Install Anacondas with .sh files
 
-1. download shell files.
+1. download the `command-line installer` files.
+![Dowonloads](https://cloud.githubusercontent.com/assets/18824134/18459893/e59a92be-799f-11e6-9f67-77daa4c4ad32.png)
 
 2. make a new directory on your root directory, named `Environments`.
 
-3. then change directory to where the downloaded files are. Generally, it is `Downloads` file.
+3. then change directory to where the downloaded files are. Generally, it is `Downloads` folder.
 
 4. enter this command in terminal
 
@@ -40,30 +41,49 @@ Then you can wait until the installations are finished.
 The full commands are:
 
 ```
-$ cd
+
 # step 1
+# download the installer files.
 
+
+# step 2
+$ cd
 $ mkdir Environments
-# step 2: mkdir means make a new directory
 
+# create a directory named Environments.
+# mkdir means make directory.
+
+
+# step 3:
 $ cd Downloads
-# step 3: change the directory to the directory where .sh files are.
+# change the directory to the directory where .sh files are.
 
+
+# step 4
 $ sudo bash Anaconda3-4.1.1-MacOSX-x86_64.sh
 Password:[enter your password here]
-# step 4: for python3.5. Here I install python3 first.
+# here I take python3.5 as an example.
 
 (a lot things will appear, just press the `<enter>` key, until you are asked to enter `yes`)
+
 # step 5
-
-(after entering `yes`, you  are asked to choose the location to install. Now, enter the prepared paths)
-
-the default path would be:
-Users/floyd/anaconda3
-installation path >>> Users/floyd/Environment/anaconda3
-# step 6
-.....(a lot words here, until it is finished).....
+# after entering `yes`, you will be asked to choose the location to install.
 ```
+
+
+
+![path](https://cloud.githubusercontent.com/assets/18824134/18460141/a335eed0-79a1-11e6-86cb-4d8531816610.png)
+```
+# step 6
+# now, enter our own path.
+
+［Users/floyd/anaconda3］>>> Users/floyd/Environment/anaconda3
+
+＃ change floyd to your own user name!
+
+.....(Wait, until all the things are finished).....
+```
+
 Additionally, to install anaconda2, you need to repeat the step 4-6 and change '3' to '2'.
 
 
@@ -88,4 +108,5 @@ Now you have install a lot of packages.
     `$ ipython`
 
     `$ ipython notebook`
+    
     (to see what will happen!)
