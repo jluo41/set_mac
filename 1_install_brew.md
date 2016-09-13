@@ -6,7 +6,8 @@
 
 1. The codes which starts with `'$'` should be entered into the *__Terminal__*. __And you do not enter the '$' into the terminal !__
 
-2. The contents which starts with `'#'` are comments for the codes, if any. __You do not enter these comments into the terminal, because they are used as explanations !__
+2. The contents which starts with `'#'` are comments for the codes, if any. __You do not enter these comments into the terminal, because it is used as explanation !__
+
 
 ***
 
