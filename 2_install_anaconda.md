@@ -9,6 +9,7 @@ https://www.continuum.io/downloads
 #### 2.1 Install Anacondas with .sh files
 
 1. download the `command-line installer` files.
+
 ![Dowonloads](https://cloud.githubusercontent.com/assets/18824134/18459893/e59a92be-799f-11e6-9f67-77daa4c4ad32.png)
 
 2. make a new directory on your root directory, named `Environments`.
