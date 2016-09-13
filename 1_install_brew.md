@@ -2,13 +2,12 @@
 
 ***
 *__Preface__*:
-1. The codes which starts with `'$'` should be entered into the __Terminal__.
-2. The contents which ends with `'#'` are comments for the codes, if any.
+1. The codes which starts with `'$'` should be entered into the *__Terminal__*. __And you do not enter the '$' into the terminal !__
+
+2. The contents which starts with `'#'` are comments for the codes, if any. __You do not enter these comments into the terminal, because it is used as explanation !__.
 ***
 
 Homebrew is a package management tool for OSX.
-
-It acts as `yum` in Red Hat, `apt-get` in Ubuntu.
 
 Installing it is easy: enter the following code in terminal.
 
@@ -61,5 +60,3 @@ such as:
 `$ brew cask install alfred`
 
 `$ brew cask install atom`
-
-`$ brew cask install iterm2`
